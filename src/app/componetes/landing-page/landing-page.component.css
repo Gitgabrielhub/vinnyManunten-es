@@ -1,0 +1,421 @@
+@font-face {
+  font-family: 'MyCustomFont';
+  src: url('/assets/fonts/MyCustomFont-Regular.woff2') format('woff2'),
+       url('/assets/fonts/MyCustomFont-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+p{
+  color: #fff;
+}
+.text{
+  color:#196F3D;
+}
+.titulo{
+  color: #fff;
+}
+
+body {
+  font-family: 'MyCustomFont', sans-serif;
+}
+.h1, a{
+  overflow-wrap: break-word;
+  word-break: break-word;
+  hyphens: auto;
+
+}
+.header{
+  background-color:#17202A ;
+  color: #fff;
+}
+nav{
+  background-color: #000;
+  color: #17202A;
+  padding-right:rem;
+}
+.nav-link{
+
+  color: #196F3D;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+.nav-link:hover{
+  background-color: #D7DBDD;
+  transform: scale(1.1);
+}
+.img-fundo {
+  background-image: url('../../../assets/images/fat-lads-m2TIgfnTSDI-unsplash.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover; /* Faz com que a imagem cubra toda a área do elemento */
+  height:100vh; /* Ajusta a altura para 93% da altura da viewport */
+  width: 100%; /* Ajusta a largura para 100% da largura da viewport */
+  padding: 0px;
+
+
+}
+
+/* Adiciona uma media query para telas grandes */
+@media (min-width: 1200px) {
+  .img-fundo {
+    background-size: contain; /* Ajusta a imagem para manter a proporção em telas grandes */
+  }
+}
+ .bloco-transparente{
+  background-color: rgba(0.1, 0.1, 0.1, 0.6);
+  /* display: block; */
+  border: none;
+  padding: 20px;
+  margin: 20px;
+  width: 55rem;
+  border-radius: 20px;
+  }
+  @media (max-width:935px){
+    .bloco-transparente{
+      width:50rem ;
+    }
+  }
+  @media (max-width:830px){
+    .bloco-transparente{
+      margin-top: 2rem;
+      width:45rem ;
+      font-size: 14px;
+    }
+  }
+  @media (max-width:760px){
+    .bloco-transparente{
+      margin-top: 2rem;
+      width:40rem ;
+      font-size: 12px;
+    }
+    .imagem-vinny{
+      width: 225px;
+      height: 225px;
+    }
+  }
+  @media (max-width:655px){
+    .bloco-transparente{
+      margin-top: 2rem;
+      width:35rem ;
+      font-size: 12px;
+
+    }
+    .imagem-vinny{
+      width: 220px;
+      height: 220px;
+    }
+  }
+  @media (max-width:556px){
+    .bloco-transparente{
+      margin-top: 2rem;
+      width:30rem ;
+      font-size: 12px;
+    }
+  }
+  @media (max-width:500px){
+    .bloco-transparente{
+      margin-top: 2rem;
+      width:25rem ;
+      font-size: 12px;
+    }
+  }
+  @media (max-width:500px){
+    .bloco-transparente{
+      margin-top: 2rem;
+      width:20rem ;
+      font-size: 12px;
+    }
+    .imagem-vinny{
+      width: 150px;
+      height: 150px;
+    }
+  }
+
+.img-background-cont2{
+  background-image: url('../../../assets/images/imagem-contain2.svg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover; /* Faz com que a imagem cubra toda a área do elemento */
+  height:100vh; /* Ajusta a altura para 93% da altura da viewport */
+  width: 100%; /* Ajusta a largura para 100% da largura da viewport */
+  padding: 0px;
+}
+.imagem-parceiros{
+  width: 250px;
+  height: 250px;
+}
+
+.button{
+  height: 2.9rem;
+  width: 20rem;
+  border: none;
+  border-radius: 10px;
+  color: #fff;
+  background-color: #196F3D;
+  font-size: 1.3rem;
+}
+@media (max-width:329px) {
+  .button{
+    width: 17rem;
+  }
+}
+.img-background-cont3{
+  background-image: url('../../../assets/images/imagemDesafio-mecanico.svg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover; /* Faz com que a imagem cubra toda a área do elemento */
+  height:100vh; /* Ajusta a altura para 93% da altura da viewport */
+  width: 100%; /* Ajusta a largura para 100% da largura da viewport */
+  padding: 0px;
+}
+.bloco-transparente2{
+  background-color: rgba(50, 150, 100, 0.8);
+  width: 55rem;
+  border: none;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 20px;
+  }
+  /* @media(min-width:992px){
+    .bloco-transparente2{
+      width:50rem ;
+    }
+  }
+  @media(min-width:912px){
+    .bloco-transparente2{
+      width:45rem ;
+    }
+  } */
+  @media (max-width:935px){
+    .bloco-transparente2{
+      width:50rem ;
+    }
+  }
+  @media (max-width:830px){
+    .bloco-transparente2{
+      margin-top: 2rem;
+      width:45rem ;
+      font-size: 14px;
+    }
+  }
+  @media (max-width:760px){
+    .bloco-transparente2{
+      margin-top: 2rem;
+      width:40rem ;
+      font-size: 12px;
+    }
+    .imagem-vinny{
+      width: 225px;
+      height: 225px;
+    }
+  }
+  @media (max-width:655px){
+    .bloco-transparente2{
+      margin-top: 2rem;
+      width:35rem ;
+      font-size: 12px;
+
+    }
+    .imagem-vinny{
+      width: 220px;
+      height: 220px;
+    }
+  }
+  @media (max-width:556px){
+    .bloco-transparente2{
+      margin-top: 2rem;
+      width:30rem ;
+      font-size: 12px;
+    }
+  }
+  @media (max-width:500px){
+    .bloco-transparente2{
+      margin-top: 2rem;
+      width:25rem ;
+      font-size: 12px;
+    }
+  }
+  @media (max-width:500px){
+    .bloco-transparente2{
+      margin-top: 2rem;
+      width:20rem ;
+      font-size: 12px;
+    }
+    .imagem-vinny{
+      width: 150px;
+      height: 150px;
+    }
+  }
+  .contain-4{
+    background-color: #000;
+  }
+  .style{
+    width: 28rem;
+    border-radius: 20px;
+    border: 2px solid #196F3D;
+    margin: 0.3rem;
+    padding: 1rem;
+    color: #fff;
+  }
+  .img-background-cont5{
+    background-image: url('../../../assets/images/imgFundoAlvo.svg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover; /* Faz com que a imagem cubra toda a área do elemento */
+    height:100vh; /* Ajusta a altura para 93% da altura da viewport */
+    width: 100%; /* Ajusta a largura para 100% da largura da viewport */
+    padding: 0px;
+  }
+  .bloco-transparente3{
+    background-color: rgba(217, 217, 217, 0.8);
+    width: 55rem;
+    border: none;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 20px;
+    }
+    @media (max-width:935px){
+      .bloco-transparente3{
+        width:50rem ;
+      }
+    }
+    @media (max-width:830px){
+      .bloco-transparente3{
+        margin-top: 2rem;
+        width:45rem ;
+        font-size: 14px;
+      }
+    }
+    @media (max-width:760px){
+      .bloco-transparente3{
+        margin-top: 2rem;
+        width:40rem ;
+        font-size: 12px;
+      }
+      .imagem-vinny{
+        width: 225px;
+        height: 225px;
+      }
+    }
+    @media (max-width:655px){
+      .bloco-transparente3{
+        margin-top: 2rem;
+        width:35rem ;
+        font-size: 12px;
+
+      }
+      .imagem-vinny{
+        width: 220px;
+        height: 220px;
+      }
+    }
+    @media (max-width:556px){
+      .bloco-transparente3{
+        margin-top: 2rem;
+        width:30rem ;
+        font-size: 12px;
+      }
+    }
+    @media (max-width:500px){
+      .bloco-transparente3{
+        margin-top: 2rem;
+        width:25rem ;
+        font-size: 12px;
+      }
+    }
+    @media (max-width:500px){
+      .bloco-transparente3{
+        margin-top: 2rem;
+        width:20rem ;
+        font-size: 12px;
+      }
+      .imagem-vinny{
+        width: 150px;
+        height: 150px;
+      }
+    }
+
+
+    .container-6{
+      background-color:rgb(0 66 49 ) ;
+    }
+    iframe{
+      border-radius: 20px;
+    }
+    @media(max-width:314px){
+      iframe{
+        width: 300px;
+      }
+    }
+    @media(max-width:908px){
+      iframe{
+        width: 700px;
+      }
+    }
+    @media(max-width:763px){
+      iframe{
+        width: 600px;
+      }
+    }
+    @media(max-width:673px){
+      iframe{
+        width: 550px;
+      }
+    }
+    @media(max-width:562px){
+      iframe{
+        width: 520px;
+      }
+    }
+    @media(max-width:530px){
+      iframe{
+        width: 490px;
+      }
+    }
+    @media(max-width:498px){
+      iframe{
+        width: 480px;
+      }
+    }
+    @media(max-width:490px){
+      iframe{
+        width: 450px;
+      }
+    }
+    @media(max-width:457px){
+      iframe{
+        width: 400px;
+      }
+    }
+    @media(max-width:409px){
+      iframe{
+        width: 380px;
+      }
+    }
+    @media(max-width:387px){
+      iframe{
+        width: 330px;
+      }
+    }
+    @media(max-width:325px){
+      iframe{
+        width: 300px;
+      }
+    }
+    .footer{
+      background-color: rgb(0 66 49 );
+    }
+.icons{
+ display: flex;
+ justify-content: center;
+ gap: 1rem;
+ align-items: center;
+}
+.icon{
+  width: 2rem;
+  height: 2rem;
+}
